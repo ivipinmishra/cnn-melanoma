@@ -43,7 +43,7 @@
 Give credit here.
 - This project was inspired by Upgrad AI-ML Journey.
 - Reference: https://upgrad.com/
-- This project was based on [Upgrad AI-ML Linear Regression Course](https://upgrad.com).
+- This project was based on [Upgrad AI-ML CNN Module](https://upgrad.com).
 
 
 ## Contact
