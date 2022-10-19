@@ -27,9 +27,17 @@
     - Vascular lesion
 
 ## Conclusions
-- 
+- Model 1
+The accuracy of the model for the Training data set is at 95%. But the Validation accuracy is not in par with the training accuracy. It is only at 50%. The validation loss as observed is very high. This could also be indicative of some Overfit in the model. We could add some Dropout layers to improve the accuracy.
 
+- Model 2
+By using dropouts, model accuracy for Train data set has dropped to nearly 65%. The accuracy for the Validation set is at 55%. This is a much better model compared to the previous model as there seems to be No Overfit with the training accuracy 65% and validation accuracy at 55%.
 
+- Model 3
+- Using Data Augmentation
+ - Data Augmentation is primarily used for two reasons — to improve the variability of the dataset and also to increase the size of the dataset. This helps increase the robustness of the Deep Learning algorithm that is trained from this data.
+ -The training accuracy seems to be nearly 95% and the validation accuracy is nearly 80%. Though the model accuracy has improved, the class rebalance has helped treat the overfitting to some extent.
+- The class rebalance has helped treat the overfitting to some extent.
 ## Technologies Used
 - matplotlib
 - pandas
